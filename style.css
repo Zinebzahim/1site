@@ -1,0 +1,125 @@
+/* Style global */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #E0F7FA;
+    color: #4E342E;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* En-tête */
+header {
+    background-color: #2E7D32;
+    padding: 20px;
+    color: #FFF;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* Navigation */
+nav.liste {
+    background-color: #4CAF50;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav.liste ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.liste li {
+    margin: 0;
+}
+
+nav.liste a {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #388E3C;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav.liste a:hover {
+    background-color: #2E7D32;
+}
+
+/* Contenu principal */
+main {
+    padding: 20px;
+}
+
+/* Sections */
+section h2 {
+    font-size: 2em;
+    margin: 20px 0;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    color: #1B5E20;
+    text-shadow: 1px 1px 3px #000;
+}
+
+section h2:after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 4px;
+    background-color: #388E3C;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+/* Images */
+.carre {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Liens dans les descriptions */
+.école a, .école a:hover {
+    text-decoration: none;
+}
+
+.école2 {
+    display: inline-block;
+    background-color: #FFEB3B;
+    color: #212121;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.école2:hover {
+    background-color: #FBC02D;
+    transform: scale(1.1);
+}
+
+/* Boutons */
+button {
+    background-color: #8BC34A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #7CB342;
+}

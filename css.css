@@ -1,0 +1,162 @@
+/*Style pour la page accueil*/
+body{
+    text-align: center;
+    background-color:  #F0F8FF ;
+}
+.liste{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana
+    border: 1px solid #333;
+}
+.liste ul{
+    display: flex;
+    justify-content: ;
+    list-style-type: none; /* Retirer les puces de la liste */
+    border: 20px solid #64746a ;
+    background-color: #64746a;
+    font-size: large;
+    padding: 5px;
+    margin: 0;
+    border-radius: 10px;
+    text-decoration: none;
+} 
+.liste li{
+    margin: 0 10px 0px 10px;
+    transition: background-color 0.3s ease; /* Transition pour l'effet hover */
+}
+header h1 {
+    margin: 0; /* Supprimer les marges par défaut */
+    padding: 0px;
+    font-size: 38px;
+    margin: 0;
+    background-color: #FF7043;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+}
+section h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    border-bottom: 3px solid #333333; /* Ligne en bas du titre */
+}
+nav .liste a{
+    border: 3px solid #1eff00 ;
+    border-radius: 50px;
+    margin: 0;
+}
+.liste a{
+    display: block;
+    border: 2px solid #FF7043; /* Ajouter une bordure autour de chaque lien */
+    border-radius: 20px; /* Coins légèrement arrondis */
+    background-color:rgb(44, 124, 61); /* Couleur de fond des liens */
+    transition: background-color 0.3s ease;
+    padding: 10px 20px; /* Espacement interne pour les liens */
+    text-decoration: none;
+    color: #ffffff;
+}
+nav.liste a:hover { 
+    background-color:#FF7043; ;/* Couleur de fond au survol */ 
+    transform: scale(1.1); /* Agrandir légèrement au survol */
+}
+footer{
+    font-style: italic;
+}
+.Description{
+    font-size: 20px;
+}
+/*Style pour la page collections été-printemps */
+header.ép{
+    text-align: center;
+    background-color:  #F0F8FF ;
+}
+.liste1 ul{
+    display: flex;
+    justify-content: ;
+    list-style-type: none; /* Retirer les puces de la liste */
+    border: 20px solid rgba(73, 247, 9, 0.952);
+    background-color: #e0f61c;
+    font-size: large;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+    text-decoration: none;
+}
+nav.liste1 a:hover { 
+    background-color:#FF7043; ;/* Couleur de fond au survol */ 
+    transform: scale(1.1); /* Agrandir légèrement au survol */
+}
+.liste1 a{
+    display: block;
+    border: 2px solid #FF7043; /* Ajouter une bordure autour de chaque lien */
+    border-radius: 20px; /* Coins légèrement arrondis */
+    background-color: #f417aa; /* Couleur de fond des liens */
+    transition: background-color 0.3s ease;
+    padding: 10px 20px; /* Espacement interne pour les liens */
+    text-decoration: none;
+    color: #ffffff;
+}
+.carre{
+    width: 200px;
+    height: 200px;
+
+}
+h2 .F{
+    background-color: pink;
+}
+h2 .G{
+    background-color: aquamarine;
+}
+.fpé{
+    font-style: italic;
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid pink;
+    background-color: pink;
+    border-radius: 20px;
+
+}
+.gpé{
+    border: 2px solid aqua;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.fpé:hover{
+    background-color:#ff4382; ;/* Couleur de fond au survol */ 
+    transform: scale(1.1);
+}
+.gpé:hover {
+    background-color:#4388ff; ;/* Couleur de fond au survol */ 
+    transform: scale(1.1);
+}
+.gpé2{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+.fpé2{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+/*Style pour la page fpé*/
+.efgpé{
+    width: 380px;
+    height: 350px;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+}
+.école2{
+    border: 2px solid #2e8a81  ;
+    background-color: #2e8a81;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+.école:hover {
+    background-color:  #2e8a81;/* Couleur de fond au survol */ 
+    transform: scale(1.1);
+}
+.école{
+    text-decoration: none;
+}
