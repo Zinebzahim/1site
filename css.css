@@ -68,36 +68,14 @@ header.ép{
     text-align: center;
     background-color:  #F0F8FF ;
 }
-.liste1 ul{
-    display: flex;
-    justify-content: ;
-    list-style-type: none; /* Retirer les puces de la liste */
-    border: 20px solid rgba(73, 247, 9, 0.952);
-    background-color: #e0f61c;
-    font-size: large;
-    padding: 10px;
-    margin: 0;
-    border-radius: 10px;
-    text-decoration: none;
-}
+
 nav.liste1 a:hover { 
     background-color:#FF7043; ;/* Couleur de fond au survol */ 
     transform: scale(1.1); /* Agrandir légèrement au survol */
 }
-.liste1 a{
-    display: block;
-    border: 2px solid #FF7043; /* Ajouter une bordure autour de chaque lien */
-    border-radius: 20px; /* Coins légèrement arrondis */
-    background-color: #f417aa; /* Couleur de fond des liens */
-    transition: background-color 0.3s ease;
-    padding: 10px 20px; /* Espacement interne pour les liens */
-    text-decoration: none;
-    color: #ffffff;
-}
 .carre{
     width: 200px;
     height: 200px;
-
 }
 h2 .F{
     background-color: pink;
@@ -159,4 +137,9 @@ h2 .G{
 }
 .école{
     text-decoration: none;
+}
+.tf{
+    width: 280px;
+    height: 270px;
+    margin-top: 1cm;
 }
